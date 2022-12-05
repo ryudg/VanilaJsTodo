@@ -16,6 +16,8 @@ function handleAdd() {
   // 삭제 버튼
   const delBtn = document.createElement("button");
   delBtn.textContent = "삭제";
+  li.appendChild(p);
+  li.appendChild(delBtn);
 }
 
 // 입력 버튼
